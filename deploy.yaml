@@ -26,5 +26,6 @@ spec:
       containers:
         - name: customer1-container
           image: divyajeetsingh/customer1:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
